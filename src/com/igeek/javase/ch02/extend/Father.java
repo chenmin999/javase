@@ -30,8 +30,9 @@ public class Father extends GrandFather {
      * 5).子类抛出的异常要比父类方法抛出的异常要小;Exception>RuntimeException>NullPointException
      */
     @Override
-    public void show(){
+    public Father show() /*throws Exception*/{
         super.show();
         System.out.println("职业："+occupation);
+        return null;
     }
 }

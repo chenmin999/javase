@@ -1,7 +1,7 @@
 package com.igeek.javase.ch02.extend;
 
 /**
- * Java 继承
+ * Java 继承 is-a
  * 1.关键字  extends
  * 2.类与类之间是单继承
  * 3.super 代表父类的引用，执行父类中的方法，执行父类中的属性，super()执行父类的构造方法

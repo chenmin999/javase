@@ -43,8 +43,9 @@ public class GrandFather {
         this.age = age;
     }
 
-    public void show() throws NullPointerException{
+    public GrandFather show() throws NullPointerException{
         System.out.println("姓名："+name);
         System.out.println("年龄："+age);
+        return null;
     }
 }
