@@ -1,4 +1,4 @@
-package com.igeek.javase.ch03;
+package com.igeek.javase.ch03.list;
 
 import java.util.LinkedList;
 
