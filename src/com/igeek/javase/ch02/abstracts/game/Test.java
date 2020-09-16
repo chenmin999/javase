@@ -8,13 +8,18 @@ public class Test {
         Equip e2 = new Equip("屠龙刀","8","金色","宝刀",100,90);
         Equip e3 = new Equip("短刀","3","银色","小刀",60,60);
 
-        Hero hero = new Hero("剑圣","8",600,100,80,"兽类");
+        Role hero = new Hero("剑圣","8",600,100,80,"兽类");
         Monster monster = new Monster("哥斯拉","8",600,160,80,"怪兽");
 
         //添加装备
         //hero.addEquip(e1);
         //hero.addEquip(e2);
-        hero.addEquip(e3);
+        //hero.addEquip(e3);
+
+        //判断前者hero的运行期类型是否是后者Hero
+        if(hero instanceof Hero){
+            ((Hero)hero).addEquip(e3);
+        }
 
         hero.show();
         monster.show();

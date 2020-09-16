@@ -2,7 +2,7 @@ package com.igeek.javase.ch02.relation.game;
 
 public class Hero {
 
-    //游戏角色拥有昵称name，等级level，血量blood，攻击力power，防御力defence，种族kind，
+    //游戏角色拥有昵称name，等级level，血量blood，攻击力power，防御力defence，种族kind
     private String name;
     private String level;
     private int blood;
